@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "anbiopy"
+version = "0.0.1"
+authors = [
+  { name="Juan Sebastian Pardo", email="j.pardor@uniandes.edu.co" },
+]
+description = "Python package designed for the analysis of microbiota data when incorporating other types of variables e.g., anthropometric"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scikit-bio",
+    "scipy",
+    "seaborn",
+    "scikit-learn",
+    "statsmodels"
+]
+
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues" 
