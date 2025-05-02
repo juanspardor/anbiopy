@@ -20,11 +20,11 @@ dependencies = [
     "numpy",
     "pandas",
     "matplotlib",
-    "scikit-bio",
     "scipy",
     "seaborn",
     "scikit-learn",
-    "statsmodels"
+    "statsmodels",
+    "scikit-bio"
 ]
 
 license = "MIT"
