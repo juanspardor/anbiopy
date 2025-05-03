@@ -1,1 +1,1 @@
-from .methods import rarefaction, alpha_diversity, beta_diversities, convert_vector_beta_matrix, convert_matrix_vector, create_graph, anova_test, taxonomy_df, multi_level_factors, create_level_df, single_specific_level_factors, multiple_specific_level_factors, friedman_test, kruskal_wallis_test, tax_breakdown, relative_abundances
+from .methods import *

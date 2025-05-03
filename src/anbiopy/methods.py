@@ -276,8 +276,7 @@ def create_graph(pObjective, pData, pGraphType, pSaveFile = False, pFileName = "
         complete_path = pFileName + '.png'
         
         if pGraphType == 2:
-            fig = graph.get_figure()  # Extract figure from Axes
-            fig.    fig(complete_path, dpi=300)
+            plt.savefig(complete_path, dpi=300)  # Extract figure from Axes
         else:
             graph.savefig(complete_path, dpi=300)
 
@@ -925,3 +924,23 @@ def relative_abundances(pOtu):
     otu_data = pOtu.div(total_otus, axis = 0)
 
     return otu_data
+
+
+__all__ = [
+    "rarefaction",
+    "alpha_diversity",
+    "beta_diversities",
+    "convert_vector_beta_matrix",
+    "convert_matrix_vector",
+    "create_graph",
+    "anova_test",
+    "taxonomy_df",
+    "multi_level_factors",
+    "single_specific_level_factors",
+    "multiple_specific_level_factors",
+    "friedman_test",
+    "kruskal_wallis_test",
+    "tax_breakdown",
+    "relative_abundances",
+    "create_level_df"
+]

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "anbiopy"
-version = "0.0.2"
+version = "0.1.1"
 authors = [
   { name="Juan Sebastian Pardo", email="j.pardor@uniandes.edu.co" },
 ]
