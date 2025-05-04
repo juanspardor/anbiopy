@@ -222,7 +222,7 @@ def convert_matrix_vector(matrix):
     return vector
     
 
-def create_graph(pObjective, pData, pGraphType, pSaveFile = False, pFileName = ""):
+def create_graphic(pObjective, pData, pGraphType, pSaveFile = False, pFileName = ""):
     
     #Input check ---
     if pGraphType not in [1,2,3]:
@@ -932,7 +932,7 @@ __all__ = [
     "beta_diversities",
     "convert_vector_beta_matrix",
     "convert_matrix_vector",
-    "create_graph",
+    "create_graphic",
     "anova_test",
     "taxonomy_df",
     "multi_level_factors",
