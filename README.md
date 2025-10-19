@@ -1,4 +1,4 @@
-# Amapy Library
+# anbiopy Library
 
 Author: Juan Sebastián Pardo
 License: MIT License
